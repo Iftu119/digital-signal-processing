@@ -57,3 +57,8 @@ hold on
 plot(t,x,'color','r') %Comparison with analog signal
 
 
+% Part 04 : Reconstructing the Signal
+
+subplot (224)
+plot (ts,qValue)
+title ('Reconstructed Signal')
